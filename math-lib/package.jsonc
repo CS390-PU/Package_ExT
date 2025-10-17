@@ -1,0 +1,28 @@
+{
+  // The name of your package (must be lowercase, no spaces)
+  "name": "math-lib",
+
+  // Semantic version number: major.minor.patch
+  "version": "1.0.0",
+
+  // Optional short description of the package
+  "description": "A simple math library with add and subtract modules.",
+
+  // The main entry point of your package (the file Node will load if someone runs `import 'math-lib'`)
+  "main": "index.js",
+
+  // Allows ES Modules syntax: `import` and `export`
+  "type": "module",
+
+  // Optional metadata fields
+  "author": "Your Name",
+  "license": "MIT",
+
+  // Optional script commands for quick testing
+  "scripts": {
+    "start": "node demo.js"
+  },
+
+  // Optional: packages this one depends on (empty here)
+  "dependencies": {}
+}
